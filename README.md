@@ -10,7 +10,7 @@ Predicting greenhouse crop yield from IoT sensor data using machine learning.
 
 | File | Description |
 |------|-------------|
-| `greenhouse_yield_prediction.ipynb` | Main notebook — EDA, models, evaluation |
+| `greenhouse_yield_prediction(5).ipynb` | Main notebook — EDA, models, evaluation |
 | `greenhouse_crop_yields.csv` | Dataset (10,400 records) |
 | `project_report.docx` | Final written report |
 
@@ -29,24 +29,14 @@ Predicting greenhouse crop yield from IoT sensor data using machine learning.
 
 | Model | MAE | RMSE | R² |
 |-------|-----|------|----|
-| Linear Regression (baseline) | 2.44 | 3.08 | 0.60 |
-| **Random Forest** | **1.66** | **2.09** | **0.82** |
-| XGBoost | 1.72 | 2.18 | 0.80 |
+| Linear Regression (baseline) | 2.4429 | 3.0830 | 0.6021 |
+| **Random Forest** | **1.6584** | **2.0886** | **0.8174** |
+| XGBoost | 1.7221 | 2.1750 | 0.8020 |
 
 Random Forest performed best. Results validated with 5-fold cross-validation.
 
 ---
 
-## How to Run
-
-Open `greenhouse_yield_prediction.ipynb` in Google Colab and run all cells. The dataset loads automatically from this repository — no uploads needed.
-
-**Local:**
-```bash
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn scipy
-jupyter notebook greenhouse_yield_prediction.ipynb
 ```
 
 ---
-
-## Submission — May 2026
