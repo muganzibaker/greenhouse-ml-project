@@ -10,7 +10,7 @@ Predicting greenhouse crop yield from IoT sensor data using machine learning.
 
 | File | Description |
 |------|-------------|
-| `greenhouse_yields_prediction.ipynb` | Main notebook — EDA, models, evaluation |
+| `greenhouse_yields_predictions.ipynb` | Main notebook — EDA, models, evaluation |
 | `greenhouse_crop_yields.csv` | Dataset (10,400 records) |
 | `project_report.docx` | Final written report |
 
