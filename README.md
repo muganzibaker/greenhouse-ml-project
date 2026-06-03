@@ -29,9 +29,9 @@ Predicting greenhouse crop yield from IoT sensor data using machine learning.
 
 | Model | MAE | RMSE | R² |
 |-------|-----|------|----|
-| Linear Regression (baseline) | 2.4429 | 3.0830 | 0.6021 |
-| **Random Forest** | **1.6584** | **2.0886** | **0.8174** |
-| XGBoost | 1.7221 | 2.1750 | 0.8020 |
+| Linear Regression (baseline) | 2.4441 | 3.0837 | 0.6019 |
+| Random Forest | 1.6679 | 2.0952 | 0.8162 |
+| **XGBoost** | **1.6501** | **2.0618** | **0.8221** |
 
-Random Forest performed best across all three metrics, achieving an R² of 0.8174, MAE of 1.6584 kg/m², and RMSE of 2.0886 kg/m². XGBoost performed closely behind (R² = 0.8020), while Linear Regression confirmed the non-linear nature of the task (R² = 0.6021). Results were validated using 5-fold cross-validation, where Random Forest achieved a mean R² of 0.8159 and XGBoost showed the most stable performance (CV std = 0.0037).
+XGBoost achieved the best performance with the highest R² of 0.8221 and MAE of 1.6501 kg/m² — meaning the model explains 82% of the variance in crop yield. Random Forest performed close behind (MAE = 1.6679 kg/m², RMSE = 2.0952 kg/m², R² = 0.8162). Linear Regression confirmed the baseline expectation: a significant portion of the yield-feature relationship is non-linear.
 
